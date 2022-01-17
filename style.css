@@ -36,7 +36,6 @@ footer {
 
 .footer-logo {
   width: 5rem;
-  margin-left: 0.75rem;
 }
 
 footer a {
@@ -51,12 +50,12 @@ footer a {
 }
 
 .footer-links a {
-  margin: 0 0.75rem;
+  margin-right: 0.75rem;
 }
 
 .iconify {
   font-size: 2rem;
-  margin-left: 0.75rem;
+  margin-right: 0.75rem;
 }
 
 .iconify:hover {
@@ -159,10 +158,11 @@ button:focus {
 
   footer {
     padding: 1rem 6rem;
+    padding-bottom: 3rem;
   }
 
   nav {
-    margin: 0.75rem 4rem;
+    margin: 0.75rem 3.4rem;
   }
 
   .navbar-styles {
@@ -176,12 +176,10 @@ button:focus {
 
   .iconify {
     font-size: 2.5rem;
-    margin-left: 0.75rem;
   }
 
   .footer-logo {
     width: 6rem;
     margin-top: 2vh;
-    margin-left: 0.75rem;
   }
 }

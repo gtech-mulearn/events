@@ -31,7 +31,7 @@ nav {
 footer {
   padding: 4rem 2rem;
   background-color: #404040;
-  /* margin-top: 50vh; */
+  margin-top: 55vh;
 }
 
 .footer-logo {
@@ -182,4 +182,64 @@ button:focus {
     width: 6rem;
     margin-top: 2vh;
   }
+}
+
+/* Card Styling */
+
+.event {
+  background-color: rgb(250, 250, 250);
+  width: 20rem;
+  color: #404040;
+}
+
+.event-content{
+  padding: 0.5rem;
+}
+
+.events-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8vh 0vw;
+}
+
+.event-image {
+  width: 20rem;
+  border-radius: 5px;
+}
+
+.event-header {
+  margin: 0rem;
+  margin-top: 1vh;
+  font-family: "Outfit", sans-serif;
+  font-size: 1.75rem;
+}
+
+/* Tags Styling */
+
+.tags span {
+  padding: 0.25rem 0.45rem;
+  color: white;
+  font-size: 0.8rem;
+  border-radius: 5px;
+}
+
+.event-description{
+  font-size: 0.95rem;
+}
+
+.tinkerhub {
+  background-color: deepskyblue;
+}
+
+.karma {
+  background-color: orange;
+}
+
+.online{
+  background-color: palegreen;
+}
+
+.goodies{
+  background-color: royalblue;
 }

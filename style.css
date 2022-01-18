@@ -199,6 +199,7 @@ button:focus {
 .events-container {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   margin: 8vh 0vw;
 }
@@ -213,6 +214,10 @@ button:focus {
   margin-top: 1vh;
   font-family: "Outfit", sans-serif;
   font-size: 1.75rem;
+}
+
+.event{
+  margin: 2rem 0;
 }
 
 /* Tags Styling */

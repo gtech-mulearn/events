@@ -12,12 +12,12 @@ const swap_header = () => {
 };
 
 const swap_container = () => {
-    inactive_container = document.getElementsByClassName("hide")[1];
-    active_container = document.getElementsByClassName("show")[1];
-  
-    inactive_container.classList.remove("hide");
-    inactive_container.classList.add("show");
-  
-    active_container.classList.add("hide");
-    active_container.classList.remove("show");
-  };
+  inactive_container = document.getElementsByClassName("hide")[1];
+  active_container = document.getElementsByClassName("show")[1];
+
+  inactive_container.classList.remove("hide");
+  inactive_container.classList.add("show");
+
+  active_container.classList.add("hide");
+  active_container.classList.remove("show");
+};

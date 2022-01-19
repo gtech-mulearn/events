@@ -183,13 +183,18 @@ button:focus {
   }
 }
 /* Header Styling */
-.headers {
+.headers-up,
+.headers-past {
   margin-top: 5vh;
   display: flex;
   align-items: baseline;
   margin-left: 2.4rem;
   font-family: "Outfit", sans-serif;
   color: #404040;
+}
+
+.hide {
+  display: none;
 }
 
 .active-header {
@@ -203,7 +208,8 @@ button:focus {
 }
 
 @media only screen and (min-width: 1000px) {
-  .headers {
+  .headers-up,
+  .headers-past  {
     margin-left: 6rem;
   }
 

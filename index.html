@@ -136,12 +136,16 @@
     </nav>
 
     <main>
-      <div class="headers">
+      <div onclick="swap_header()" class="headers-up show">
         <p class="active-header">Upcoming</p>
         <p class="header">Past(8)</p>
-
-        <hr/f>
       </div>
+
+      <div onclick="swap_header()" class="headers-past hide">
+        <p class="active-header">Past(8)</p>
+        <p class="header">Upcoming</p>
+      </div>
+
       <div class="events-container">
         <div class="event past">
           <img
@@ -380,6 +384,8 @@
         </div>
       </div>
     </footer>
+
+    <script src="script.js"></script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

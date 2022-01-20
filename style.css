@@ -210,7 +210,7 @@ button:focus {
 
 @media only screen and (min-width: 1000px) {
   .headers-up,
-  .headers-past  {
+  .headers-past {
     margin-left: 6rem;
   }
 
@@ -265,7 +265,12 @@ button:focus {
 
 /* Tags Styling */
 
+.tags{
+  line-height: 2rem;
+}
+
 .tags span {
+  margin-top: 5rem;
   padding: 0.25rem 0.45rem;
   color: white;
   font-size: 0.8rem;

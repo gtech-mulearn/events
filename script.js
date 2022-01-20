@@ -21,3 +21,15 @@ const swap_container = () => {
   active_container.classList.add("hide");
   active_container.classList.remove("show");
 };
+
+const reveal = () => {
+  let down_container;
+  if (document.getElementsByClassName("down")[0]) {
+    down_container = document.getElementsByClassName("down")[0];
+    down_container.classList.remove("down");
+  }
+
+  if (!document.getElementsByClassName("down")[0]) {
+    document.getElementsByClassName("view-more")[0].classList.add("hide");
+  }
+};

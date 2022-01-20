@@ -301,3 +301,14 @@ button:focus {
 .goodies {
   background-color: royalblue;
 }
+
+.down{
+  display: none;
+}
+
+.view-more{
+  margin-top: 3vh;
+  text-align: center;
+  font-size: 1.25rem;
+  font-family: "Outfit", sans-serif;
+}

@@ -43,7 +43,8 @@ footer a {
   color: #ffff;
 }
 
-.social-links a:hover, .footer-links a:hover{
+.social-links a:hover,
+.footer-links a:hover {
   color: #fd7915;
 }
 
@@ -233,6 +234,11 @@ button:focus {
   color: #404040;
 }
 
+.event-image {
+  width: 20rem;
+  border-radius: 5px;
+}
+
 .event-content {
   padding: 0.5rem;
 }
@@ -242,11 +248,6 @@ button:focus {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-}
-
-.event-image {
-  width: 20rem;
-  border-radius: 5px;
 }
 
 .event-header {
@@ -261,10 +262,24 @@ button:focus {
 }
 
 @media only screen and (min-width: 1000px) {
+
   .events-container {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: flex-start;
+  }
+
+  .event {
+    width: 17vw;
+  }
+
+  .event-image {
+    width: 17vw;
+  }
+
+  .event-header {
+    font-size: 1.55rem;
+    margin-bottom: 1.25vh;
   }
 }
 
@@ -302,11 +317,11 @@ button:focus {
   background-color: royalblue;
 }
 
-.down{
+.down {
   display: none;
 }
 
-.view-more{
+.view-more {
   margin-top: 3vh;
   text-align: center;
   font-size: 1.25rem;

@@ -276,6 +276,21 @@ button:focus {
   margin: 2rem 0;
 }
 
+.register{
+  color: #f6832a;
+  background-color: aliceblue;
+  border: 2px solid #f6832a;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  margin-bottom: 2vh;
+  padding: 0.25rem 0.75rem;
+  
+}
+
+.register:hover{
+  box-shadow: 0px 0px 10px #e0c4ae;
+}
+
 @media only screen and (min-width: 1000px) {
   .events-container {
     flex-direction: row;

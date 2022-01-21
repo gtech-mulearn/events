@@ -204,7 +204,8 @@ button:focus {
 /* Header Styling */
 .headers-up,
 .headers-past {
-  margin-top: 5vh;
+  margin-top: 6vh;
+  margin-bottom: 2vh;
   display: flex;
   align-items: baseline;
   margin-left: 2.4rem;

@@ -4,6 +4,11 @@
 
 nav {
   padding: 1.75rem;
+  background-color: white;
+}
+
+main {
+  margin-top: 10vh;
 }
 
 .mulearn-logo {
@@ -143,6 +148,10 @@ button:focus {
   outline: none;
 }
 
+.nav-barbtn{
+  padding-bottom: 2vh;
+}
+
 .newsletter {
   width: 20rem;
 }
@@ -166,8 +175,8 @@ button:focus {
     padding-bottom: 3rem;
   }
 
-  nav {
-    margin: 0.75rem 3.4rem;
+  .container-fluid{
+    padding: 0.55rem 4.3rem;
   }
 
   .navbar-styles {
@@ -186,6 +195,10 @@ button:focus {
   .footer-logo {
     width: 6rem;
     margin-top: 2vh;
+  }
+
+  .nav-barbtn{
+    padding-bottom: 0vh;
   }
 }
 /* Header Styling */
